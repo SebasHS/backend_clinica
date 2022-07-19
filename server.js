@@ -4,7 +4,7 @@ const cors = require('cors')
 const app = express()
 
 var corsOptions = {
-  origin: [']http://localhost:3000','https://frontend-clinica-chevere.herokuapp.com']
+  origin: ['http://localhost:3000','http://frontend-clinica-chevere.herokuapp.com']
 }
 
 app.use(cors(corsOptions))
