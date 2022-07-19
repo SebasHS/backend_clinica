@@ -4,7 +4,7 @@ module.exports = (app) => {
   const doctor = require('../controllers/doctor.controller')
 
   var router = require('express').Router()
-  router.use(autentication)
+  //router.use(autentication)
 
   // Retrieve all Usuarios
   router.get('/', doctor.index)
